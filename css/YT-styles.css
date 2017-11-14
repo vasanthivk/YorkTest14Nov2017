@@ -1,0 +1,323 @@
+/*WELCOME CSS*/
+.moveto-page{
+    position: fixed;
+    right: 20px;
+    
+}
+.moveto-page .fa-caret-right{
+    color:#c65a58;
+    font-size: 48px;
+}
+.instractions-innerx h2{
+    font-size: 24px !important;
+}
+
+.instractions-innerx p{
+    text-align: justify;
+}
+/*WELCOME CSS*/
+
+
+/*MAINMENU CSS*/
+.main-menu-cont{
+    width:94%;
+    margin-left: 3%;
+}
+.main-menu-cont h2{
+    font-size: 24px !important;
+}
+.sub-main{margin: 2%;}
+.sub-main ul{margin: 0;padding: 0;position: relative;}
+.sub-main ul li{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;   
+    text-align: center;
+}
+
+.sub-main ul li a{
+    display: block;
+    color:#c65a58;
+    font-weight: bold;
+}
+/*MAINMENU CSS*/
+
+
+
+/*TestResult css*/
+.testresult-menu a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;   
+    text-align: center;
+    color:#c65a58;
+    font-weight: bold; 
+    font-size:24px;
+}
+
+.testresult-menu.open a{
+    border-bottom: none;
+}
+
+.testresult-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1.7rem;
+line-height: 3rem;
+color:#757378;
+}
+
+.testresult-menu.open i{
+    transform: rotate(180deg);
+}
+.sub-testresults{display: none;border-bottom: 2px solid #e3e3e3;}
+
+.testresult-menu .testresult-menu-color{
+    color:#f1a646;
+}
+.testresult-menu .testresult-menu-color1{
+    color:#5f9b64;
+}
+
+
+.sub-testresult-menu a{
+    display: block;
+    line-height: 3.0rem;   
+    text-align: center;
+    color:#757378;
+    font-weight: bold; 
+    font-size:18px;
+}
+
+.sub-testresult-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1.4rem;
+line-height: 3rem;
+color:#757378;
+}
+
+.sub-testresult-menu.open i{
+    transform: rotate(180deg);
+}
+
+.sub-inner-content{display: none;border-bottom: 1px solid #e3e3e3;}
+
+
+.sub-inner-testresult-menu a{
+    display: block;
+    line-height: 2.5rem;   
+    text-align: left;
+    color:#757378;
+    font-weight: bold; 
+    font-size:15px;
+
+}
+
+.sub-inner-testresult-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1rem;
+line-height:2.5rem;
+color:#757378;
+}
+
+.sub-inner-testresult-menu.open i{
+    transform: rotate(180deg);
+}
+
+.sub-sub-inner-content{display: none;}
+
+.sub-sub-inner-content p{
+    text-align: left;
+    margin: 0;
+}
+
+/*TestResult css*/
+
+
+/*Sub-main-menu Css*/
+
+.sub-main-menu{
+    width:94%;
+    margin-left: 3%;
+}
+
+.sub-main-menu-cont{
+    margin: 2%;
+    margin-top: 30px;
+}
+
+.sub-main-menu a{
+
+    display: block;
+    vertical-align: middle;
+    color: #cecece;
+    font-size: 2.6vh;
+    line-height: 6vh;
+
+}
+.sub-main-menu .icon{
+    font-size: 1.1rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    line-height: 6vh;
+
+}
+.sub-icon-position{
+    float: left;
+}
+.sub-menu-position{
+    float: left;
+    width:50%;
+}
+
+.sub-main-menu-cont1{
+    margin-top: 20px;
+}
+.sub-main-menu-cont1 a{
+    color:#c65a58
+}
+.sub-main-menu-cont1 icon{
+    color:#c65a58
+}
+
+/*Sub-main-menu Css*/
+
+
+/*Meal-Tracker Css*/
+
+.meal-tracker{width:94%;margin-left: 3%;}
+.meal-tracker-cont{margin: 2%;}
+.meal-tracker-cont h2 {
+    font-size: 24px !important;
+}
+
+.meal-tracker-menu a{
+    display: block;
+   
+    line-height: 3.0rem;
+    text-align: left;
+    color: #757378;
+    font-weight: bold;
+    font-size: 18px;
+}
+.meal-tracker-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1.7rem;
+line-height: 3rem;
+color: #757378;
+}
+
+.meal-tracker-menu.open i{
+    transform: rotate(180deg);
+}
+.sub-meal-tracker-menu{display: none;}
+
+.sub-meal-cont label{
+    float: left;
+    width: 30%;
+    line-height: 45px;
+    color: #757378;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sub-meal-cont input{
+    float: left;
+    width: 60%;
+    background-color: #c3c3c3;
+}
+.clear-fix{clear:both;}
+
+/*Meal-Tracker Css*/
+
+
+/*Allergens css*/
+.allergens-innerx li{
+    color:#606060;
+}
+
+/*Allergens css*/
+
+
+/*DIRECT page css*/
+.direct-cont{
+    margin-top: 30px;
+}
+
+.direct-menu a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #757378;
+
+}
+
+.direct-menu i{
+    float: right;
+    transition: all .4s ease-in-out;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #757378;
+    }
+    
+    .direct-menu.open i{
+        transform: rotate(180deg);
+    }
+    .sub-direct-menu-menu{display: none;}
+
+
+/*DIRECT page css*/
+
+/*MY Drink Guide css*/
+
+
+.drinks-guide-menu  a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #757378;
+    font-size: 18px;
+}
+
+.drinks-guide-menu  i{
+    float: right;
+    transition: all .4s ease-in-out;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #757378;
+    }
+    
+    .drinks-guide-menu.open  i{
+        transform: rotate(180deg);
+    }
+    .sub-drinks-guide{display: none;border-bottom: 2px solid #e3e3e3;}
+
+    .sub-drinks-guide-menu a{
+        display: block;
+        line-height: 3.0rem;
+        text-align:left;
+        font-weight: bold;
+        color: #757378;
+        font-size: 16px;
+    }
+
+    .sub-drinks-guide-menu  i{
+        float: right;
+        transition: all .4s ease-in-out;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        color: #757378;
+        }
+    
+    .drink-guide-span{
+        float:right;
+        margin-right: 50px;
+    }
+
+/*MY Drink Guide css*/
